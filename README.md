@@ -3,7 +3,7 @@ Container to run slcli command
 
 USAGE:
 ```
-docker run -v <local_path_to_softlayer_config>:/home/cli/.softlayer r2ronoha/slcli_docker:latest <command> [OPTIONS]
+docker run -v <local_path_to_softlayer_config>:/home/cli/.softlayer wanderadock/slcli:latest <command> [OPTIONS]
 ```
 Commands and options available as per https://softlayer-api-python-client.readthedocs.io/en/latest/cli/
 
